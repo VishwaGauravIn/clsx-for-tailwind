@@ -1,0 +1,38 @@
+{
+  "name": "clsx-for-tailwind",
+  "version": "1.0.0",
+  "description": "clsx for Tailwind",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VishwaGauravIn/clsx-for-tailwind.git"
+  },
+  "keywords": [
+    "clsx",
+    "tailwind",
+    "clsx-for-tailwind",
+    "cn"
+  ],
+  "author": "VishwaGauravIn",
+  "license": "AGPL-3.0",
+  "files": [
+    "dist"
+  ],
+  "bugs": {
+    "url": "https://github.com/VishwaGauravIn/clsx-for-tailwind/issues"
+  },
+  "homepage": "https://github.com/VishwaGauravIn/clsx-for-tailwind#readme",
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "typescript": "^5.4.5"
+  }
+}
